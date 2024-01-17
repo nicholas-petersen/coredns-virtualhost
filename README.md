@@ -6,9 +6,8 @@
 
 ## Description
 
-This plugin use the docker api to inspect docker conntainers and fetch each containers environment variable <code>VIRTAUL_HOST</code> if the variable exists.
-The plugin doesn't handle port numbers, so a reverse proxy such as [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) should act as frontend.
-
+This plugin uses the docker api to inspect docker containers and fetches each container's environment variable <code>VIRTAUL_HOST</code> if the variable exists.
+The plugin doesn't support port numbers, so a reverse proxy such as [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) should act as frontend.
 
 ## Syntax
 
