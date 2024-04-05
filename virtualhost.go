@@ -84,7 +84,6 @@ func (v VirtualHost) loadHosts() error {
 
 	defer cli.Close()
 
-	// containers, err := cli.ContainerList(ctx, types.ContainerListOptions{})
 	containers, err := cli.ContainerList(ctx, container.ListOptions{})
 	if err != nil {
 		return err
